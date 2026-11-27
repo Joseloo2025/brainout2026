@@ -115,6 +115,43 @@ h1 {
   color: #ffc15b;
 }
 
+.promo-reward {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 4px;
+  padding: 16px;
+  border: 1px solid rgb(255 190 77 / 45%);
+  border-radius: 12px;
+  background: rgb(0 0 0 / 28%);
+}
+
+.promo-label,
+.promo-prize {
+  margin: 0;
+  color: #f3e5d3;
+}
+
+.promo-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.promo-code {
+  color: #ffe29a;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: clamp(1.15rem, 5vw, 1.5rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.promo-prize strong {
+  color: #ffc15b;
+}
+
 @media (max-width: 600px) {
   .hero {
     background-position: center;
